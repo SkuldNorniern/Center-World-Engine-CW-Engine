@@ -47,7 +47,7 @@ rule CXX_EXECUTABLE_LINKER__CMakeTarget
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\VS Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -S"C:\Users\User\source\repos\Center World Engine" -B"C:\Users\User\source\repos\Center World Engine\out\build\x64-Debug"
+  command = "D:\VS Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:\Users\User\source\repos\Archerko01\Center-World-Engine-CW-Engine -BC:\Users\User\source\repos\Archerko01\Center-World-Engine-CW-Engine\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 
